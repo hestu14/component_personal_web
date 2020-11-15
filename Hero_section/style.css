@@ -110,8 +110,7 @@ html, body {
     }
 
     .hero-section {
-        border-top-left-radius: 0px;
-        border-top-right-radius: 0px;
+        border-radius: 0px;
         display: flex;
         flex-direction: column;
         height: 100vh;
