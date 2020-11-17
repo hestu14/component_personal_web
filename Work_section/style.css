@@ -161,18 +161,25 @@ html, body {
     margin-right: 25px;
 }
 
+.content img {
+    height: 250px;
+    width: 400px;
+    border-radius: 5px;
+}
+
 .content-title {
     margin-top: 10px;
     font-size: 22px;
 }
 
 .content-hastag {
-    margin-top: 5px;
+    margin-top: 0px;
     font-size: 12px;
+    color: #0056b3;
 }
 
 .content-web {
-    margin-top: 5px;
+    margin-top: 8px;
     font-size: 16px;
 }
 
