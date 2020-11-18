@@ -152,56 +152,60 @@ html, body {
 
  /* Hero Main section */
 
- .left-main-hero {
-     /* background-color: burlywood; */
-     margin-left: 15px;
-     padding-left: 0px;
-     padding-right: 0px;
- }
-
- .right-main-hero {
-     /* background-color: chocolate; */
-     margin-right: 15px;
-     padding-left: 0px;
-     padding-right: 0px;
-     max-height: 400px;
- }
-
- .right-main-hero img {
-     height: 300px;
-     width: auto;
- }
-
- .text-hello {
-     font-size: 34px;
-     padding-top: 50px;
- }
-
- .text-descripton {
-     font-size: 18px;
-     margin-top: 4px;
- }
-
- .text-more {
-    font-size: 16px;
-    margin-top: 75px;
+.main-section {
+    text-align: center;
 }
 
-.text-more span {
-    border: 2px #0056b3 solid;
-    padding: 7px;
+.text-header {
+    font-size: 28px;
+    color: #0056b3;
+    padding: 10px;
+    margin-top: 25px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.text-email {
+    font-size: 22px;
+    color: whitesmoke;
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.text-email-box {
+    font-size: 22px;
+    color: whitesmoke;
+    padding: 5px;
+}
+
+.text-email-box span {
+    padding: 5px 10px;
+    border: 2px solid #0056b3;
     border-radius: 5px;
-    cursor: pointer;
+    color: #0056b3;
+    font-family: 'Raleway', sans-serif;
 }
 
-.text-more a {
-    text-decoration: none;
-    color: inherit;
-    font-size: 14px;
+.text-contact {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
-.text-more span:hover {
-    background-color: #0056b3;
-    color: white;
-    transition-delay: 0.1s;
+.box-contact {
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
 }
+
+.box-contact a {
+    color: whitesmoke;
+}
+
