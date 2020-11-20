@@ -44,7 +44,7 @@ html, body {
 }
 
 .logo-section img {
-    height: 50px;
+    height: 40px;
     width: auto;
 }
 
@@ -170,6 +170,7 @@ html, body {
 .content-title {
     margin-top: 10px;
     font-size: 22px;
+    color: rgba(245, 245, 245, 0.9);
 }
 
 .content-hastag {
@@ -181,6 +182,15 @@ html, body {
 .content-web {
     margin-top: 8px;
     font-size: 16px;
+}
+
+.link-works {
+    color: rgba(245, 245, 245, 0.7);
+}
+
+.link-works:hover {
+    text-decoration: none;
+    color: whitesmoke;
 }
 
 
@@ -207,4 +217,22 @@ html, body {
     background-color: whitesmoke;
     color: #212529;
     transition-delay: 0.1s;
+}
+
+@media (max-width: 576px) {
+    .content img {
+        height: 80%;
+        width: 80%;
+        border-radius: 5px;
+    }
+}
+
+@media (max-width: 992px) {
+    .main-section {
+        margin-top: 75px;
+    }
+
+    .text-more {
+        margin-top: 50px;
+    }
 }

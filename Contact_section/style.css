@@ -44,7 +44,7 @@ html, body {
 }
 
 .logo-section img {
-    height: 50px;
+    height: 40px;
     width: auto;
 }
 
@@ -166,7 +166,7 @@ html, body {
 
 .text-email {
     font-size: 22px;
-    color: whitesmoke;
+    color: rgba(245, 245, 245, 0.9);
     padding: 10px;
     font-family: 'Raleway', sans-serif;
 }
@@ -179,10 +179,20 @@ html, body {
 
 .text-email-box span {
     padding: 5px 10px;
-    border: 2px solid #0056b3;
+    border: 2px solid whitesmoke;
     border-radius: 5px;
-    color: #0056b3;
+    color: whitesmoke;
     font-family: 'Raleway', sans-serif;
+}
+
+.text-email-box span:hover {
+    padding: 5px 10px;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    color: #212529;
+    font-family: 'Raleway', sans-serif;
+    background-color: whitesmoke;
+    transition-delay: 100ms;
 }
 
 .text-contact {
@@ -206,6 +216,21 @@ html, body {
 }
 
 .box-contact a {
-    color: whitesmoke;
+    color: rgba(245, 245, 245, 0.6);
 }
 
+.box-contact a:hover {
+    color: rgba(245, 245, 245, 0.9);
+    transform: scale(1.1);
+}
+
+@media (max-width: 992px) {
+    .main-section {
+        margin-top: 75px;
+    }
+
+    .text-header {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}

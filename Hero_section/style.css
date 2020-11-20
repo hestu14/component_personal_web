@@ -44,7 +44,7 @@ html, body {
 }
 
 .logo-section img {
-    height: 50px;
+    height: 40px;
     width: auto;
 }
 
@@ -204,4 +204,20 @@ html, body {
     background-color: #0056b3;
     color: white;
     transition-delay: 0.1s;
+}
+
+@media (max-width: 992px) { 
+    .text-hello, .text-descripton, .text-more {
+        text-align: center;
+    }
+
+    .left-main-hero {
+        margin-left: 0;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .text-more {
+        margin-top: 50px;
+    }
 }
